@@ -2,7 +2,7 @@
 
 ## Основные ссылки
 
-* [Шаблон для Miro](https://miro.com/miroverse/event-storming/).
+* [Шаблон для Miro](https://miro.com/miroverse/event-storming/)
 * [Шаблон для Figma](https://www.figma.com/templates/event-storming-example/)
 
 ## Алгоритм действий
@@ -14,4 +14,18 @@
 
 ## Выделенные контексты
 
-1. 
+[Ссылка на общий Miro-файл](https://www.figma.com/file/xzHeZx3i8ahQCGmH5nzzkn/Event-storming-(week-1)?type=whiteboard&node-id=0%3A1&t=9o139fN6bMMYAc3N-1).
+
+Контексты были определены на основании относительно независимо существующих потоков данных в системе. Так, например, жизненный цикл услуги хоть и влияет на биллинг, но не
+привязан к нему непосредственно - даже в случае синхронного обмена сообщения между контекстами детали реализации каждого из них не имеют значения для второго контекста.
+
+### Контекст обработки заявок на услуги
+
+![services_provisioning](event_storming_contexts/services_provisioning.png)
+
+Контекст отвечает за события, происходящие в процессе жизненного цикла заявки на выполнение услуг и связанные с этой сущностью. Не включает в себя процесс ревью, так как 
+он происходит уже после оказания/неоказания услуги.
+
+### Контекст менеджмента исполнителей и услуг
+
+![worker_and_service_management](event_storming_contexts/worker_and_service_management.png)
