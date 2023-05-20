@@ -8,4 +8,4 @@
 
 ## Схема модели
 
-![communication_model](communication_models/communication_model.png)
+![communication_model](communication-models/communication_model.png)
