@@ -22,6 +22,6 @@
 | Тестирование исполнителей |            Да            |  Высокая  |    Высокая   |    Core    |
 | Биллинг                   |            Нет           |  Высокая  |    Низкая    |   Generic  |
 
-![core_domain_chart](domain-charts/core_domain_chart.jpg)
+![core_domain_chart](domain-charts/refined_domain_chart.png)
 
 
