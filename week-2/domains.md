@@ -24,4 +24,6 @@
 
 ![core_domain_chart](domain-charts/refined_domain_chart.png)
 
+## Выделение bounded contexts
 
+![bounded_contexts](domain-charts/bounded_contexts.png)
